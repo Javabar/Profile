@@ -1,12 +1,22 @@
-import { HeaderStyle, ImgStyle } from "../styles/home.styled";
-
+import profile from "../images/profile.jpg";
+// import "../css/app.css";
+import "../css/home.css";
 
 const Home = () => {
     return ( 
+        <section className="bio">
+            {/* <h1>Home</h1> */}
+
+            <img className="ProfilePicture"
+                    src={profile}
+                    alt="Profile pic" />
+   
         <div>
-            <HeaderStyle>Home</HeaderStyle>
-            <ImgStyle src="uguh" alt="dbkjsb" />
+        <h2>Hello! I am is Abdelbar Benaida. </h2>
+      <p>I am an aspiring Software Developer from the UK. I enjoy buidling websites front-end and back-end applications. </p>
+      <a className="btn" href="https://github.com/Javabar" target="blank">See my work</a>
         </div>
+        </section>
      );
 }
  
