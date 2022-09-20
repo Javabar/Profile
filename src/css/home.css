@@ -26,6 +26,10 @@ body {
     }
   }
   
+  .intro {
+font-size: 30px;
+  } 
+
   a.btn {
     text-decoration: none;
     color: #FFFFE3;
