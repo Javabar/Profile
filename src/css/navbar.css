@@ -1,3 +1,13 @@
 .navbar {
     display: flex;
+    
+}
+
+.home {
+    margin: 5px;
+    
+}
+
+.about {
+margin: 5px;
 }
