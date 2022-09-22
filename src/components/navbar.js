@@ -14,6 +14,11 @@ const Navbar = () => {
           <p>About Me</p>
         </Link>
         </div>
+        <div className="projects">
+        <Link to="/Projects">
+          <p>Projects</p>
+        </Link>
+        </div>
 </div>
     </div> );
 }
