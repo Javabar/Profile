@@ -3,7 +3,7 @@ body {
     color: #253A52;
     padding: 25px;
     font-family: sans-serif;
-    max-width: 1024px;
+    max-width: fit-content;
     margin: 0 auto;
   }
   
@@ -41,5 +41,12 @@ font-size: 30px;
     align-items: center;
     border-radius: 1.25rem;
     margin: 5px;
+  }
+
+
+  .header2  {
+    font-size: 30px;
+    /* padding-top: 1px; */
+    margin-top: -40px;
   }
   

@@ -1,17 +1,31 @@
 .navbar {
     display: flex;
-    
+    align-items: center;
+    justify-content: flex-end;
+    text-decoration: none;
+    /* background-color:  #fafad8; */
 }
 
+/* .navbar:hover {
+    background-color: aqua;
+} */
+
 .home {
-    margin: 5px;
-    
+    margin: 10px;
+    font-size: 20px;
+    /* text-decoration: none; */
+}
+
+.home:hover {
+    color: blue;
 }
 
 .about {
-    margin: 5px;
+    margin: 10px;
+    font-size: 20px;
 }
 
 .projects {
-    margin: 5px;
+    margin: 10px;
+    font-size: 20px;
 }

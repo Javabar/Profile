@@ -1,19 +1,19 @@
 import "../css/projects.css";
 import React from "react";
-import ProjectCodeStation from "./projectCodeStation";
-import ProjectWebsiteClone from "./projectWebsiteClone";
+import ProjectCodeStation from "../components/projectCodeStation";
+import ProjectWebsiteClone from "../components/projectWebsiteClone";
 import codestation from "../images/codestation.jpg";
 import websiteClone from "../images/websiteClone.jpg";
-import OtherProjects from "./otherProjects";
+import OtherProjects from "../components/otherProjects";
 
 
 
 const Projects = () => {
     return ( 
         <div>
-           <div className={"portfolio"}>
+           <div className="portfolio">
         <h1>Projects</h1>
-<h2>Featured Projects</h2>
+<h2 className="subtitle">Featured Projects</h2>
 <div className={"projects1"}>
         <ProjectCodeStation
                     image={codestation}
@@ -34,8 +34,8 @@ const Projects = () => {
                 />
        </div>
 
-        <h2>Other Projects</h2>
-        <div className={"projects2"}>
+        <h2 className="subtitle">Other Projects</h2>
+        <div className="projects2">
        <OtherProjects
                     title="REST API"
                     desc="A simple REST API with two databases."

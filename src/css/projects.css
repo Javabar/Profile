@@ -1,7 +1,7 @@
-/* .portfolio { 
-    padding-top: 1px;
-    margin: 40px 0;
-}  */
+.portfolio { 
+    max-width: fit-content;
+} 
+
 
   .project {
     display: flex;
@@ -11,13 +11,14 @@
     background-color: var(--dark);
     border-radius: 10px;
     margin: 10px 0 80px;
+    
 }
 
 .project-img {
     position: relative;
     width: 50%;
     height: 100%;
-    background: var(--accent);
+    /* background: var(--accent); */
     border-radius: 10px;
     }
 
@@ -40,7 +41,7 @@
 }
 
 .project-text h3 {
-    color: var(--light);
+    /* color: var(--light); */
     font-size: 32px;
     font-weight: 700;
     line-height: 36px;
@@ -62,6 +63,10 @@
     font-size: 14px;
 }
 
+.subtitle {
+margin-top: 20px;
+padding-top: 40px;
+}
 
 /* CSS for Other Projects */
 
@@ -78,8 +83,8 @@
     min-width: 250px;
     width: 100%;
     min-height: 300px;
-    background-color: var(--dark);
-    border: 3px solid var(--dark);
+    /* background-color: var(--dark);
+    border: 3px solid var(--dark); */
     border-radius: 10px;
     transition: border 0.3s;
     /* margin: 10px; */
@@ -102,7 +107,7 @@
 }
 
 .other-project-text h3 {
-    color: var(--light);
+    /* color: var(--light); */
     font-size: 26px;
     font-weight: 700;
     line-height: 32px;
@@ -115,7 +120,7 @@
 }
 
 .other-project-text span {
-    font-family: var(--codetext);
+    /* font-family: var(--codetext); */
     font-size: 14px;
 }
 
@@ -134,8 +139,7 @@
 
 .icon1 {
     font-size: 25px;
-    margin: 0px;
-    padding: 0px;
+    margin-bottom: 50px;
 }
 
 @media all and (max-width: 1200px) {
