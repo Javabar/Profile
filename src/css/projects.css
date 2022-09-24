@@ -57,7 +57,7 @@
     color: blue;
     font-size: 14px;
 }
-
+/* 
 @media all and (max-width: 1200px) {
     .project {
         width: 100%;
@@ -86,7 +86,123 @@
     .project-text h3 {
         font-size: 24px;
     }
+} */
+
+/* CSS for Other Projects */
+
+.projects2 {
+    display: grid;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(auto, auto);
+    gap: 20px;
+    width: 100%;
+}
+.other-project {
+    display: flex;
+    flex-direction: row;
+    min-width: 250px;
+    width: 100%;
+    min-height: 300px;
+    background-color: var(--dark);
+    border: 3px solid var(--dark);
+    border-radius: 10px;
+    transition: border 0.3s;
+    /* margin: 10px; */
 }
 
+.other-project:hover {
+    border: 3px solid var(--accent);
+}
+
+.other-project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 35px;
+}
+
+.other-project-text-box {
+    margin-bottom: 20px;
+}
+
+.other-project-text h3 {
+    color: var(--light);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+}
+
+.other-project-text p {
+    margin-bottom: 10px;
+}
+
+.other-project-text span {
+    font-family: var(--codetext);
+    font-size: 14px;
+}
+
+.other-project-link {
+    margin: 0 0 -10px;
+}
+
+.other-project-link a {
+    margin-right: 25px;
+}
+
+.other-skills-text {
+    color: blue;
+    font-size: 14px;
+}
+
+@media all and (max-width: 1200px) {
+    .projectWebsiteClone, .projects2 {
+        width: 100%;
+    }
+    .project-img {
+        width: 45%;
+    }
+	.project-text {
+        width: 55%;
+        padding: 40px;
+    }
+    .other-project-text {
+        padding: 40px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .projects2 {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media all and (max-width: 800px) {
+    .project {
+        flex-direction: column;
+        height: auto;
+    }
+    .project-img {
+        height: 400px;
+    }
+    .project-imag,
+    .project-text {
+        width: 100%;
+    }
+    .project-text h3 {
+        font-size: 24px;
+    }
+    .other-project-text h3 {
+        font-size: 24px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .projects2 {
+        grid-template-columns: repeat(1, auto);
+    }
+}
 
 
