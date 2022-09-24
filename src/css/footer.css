@@ -1,0 +1,15 @@
+footer {
+    margin-top: 40px;
+    padding:1px;
+    /* background-color: #ededc6; */
+  }
+  footer p {
+    text-align: center;
+  }
+  
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }

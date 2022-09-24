@@ -25,7 +25,7 @@ const ProjectWebsiteClone = (props) => {
                 <img src={props.image} alt="" />
             </div>
         </div>
-    )
-};
+    );
+}
 
 export default ProjectWebsiteClone;

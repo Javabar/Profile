@@ -14,15 +14,15 @@ const OtherProjects = (props) => {
                 </div>
                 <div className={"other-project-link"}>
                     <a href={props.github} target="_blank" rel="noopener noreferrer">
-                    <BsGithub className="icon" />
+                    <BsGithub className="icon1" />
                     </a>
                     <a href={props.website} target="_blank" rel="noopener noreferrer">
-                    <BsFillPlayCircleFill className="icon" />
+                    <BsFillPlayCircleFill className="icon1" />
                     </a>
                 </div>
             </div>
         </div>
-    )
-};
+    );
+}
 
 export default OtherProjects;

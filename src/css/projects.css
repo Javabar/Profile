@@ -1,3 +1,7 @@
+/* .portfolio { 
+    padding-top: 1px;
+    margin: 40px 0;
+}  */
 
   .project {
     display: flex;
@@ -57,36 +61,7 @@
     color: blue;
     font-size: 14px;
 }
-/* 
-@media all and (max-width: 1200px) {
-    .project {
-        width: 100%;
-    }
-    .project-imag {
-        width: 45%;
-    }
-	.project-text {
-        width: 55%;
-        padding: 40px;
-    }
-}
 
-@media all and (max-width: 800px) {
-    .project {
-        flex-direction: column;
-        height: auto;
-    }
-    .project-img {
-        height: 400px;
-    }
-    .project-img,
-    .project-text {
-        width: 100%;
-    }
-    .project-text h3 {
-        font-size: 24px;
-    }
-} */
 
 /* CSS for Other Projects */
 
@@ -157,12 +132,19 @@
     font-size: 14px;
 }
 
+.icon1 {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
 @media all and (max-width: 1200px) {
-    .projectWebsiteClone, .projects2 {
+    .project, .projects2 {
         width: 100%;
     }
     .project-img {
         width: 45%;
+        object-fit: fill
     }
 	.project-text {
         width: 55%;
@@ -187,9 +169,10 @@
     .project-img {
         height: 400px;
     }
-    .project-imag,
+    .project-img,
     .project-text {
-        width: 100%;
+        width: 200px;
+        object-fit: fill
     }
     .project-text h3 {
         font-size: 24px;
@@ -204,5 +187,4 @@
         grid-template-columns: repeat(1, auto);
     }
 }
-
 

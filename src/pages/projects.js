@@ -7,9 +7,11 @@ import websiteClone from "../images/websiteClone.jpg";
 import OtherProjects from "./otherProjects";
 
 
-const Project = () => {
+
+const Projects = () => {
     return ( 
         <div>
+           <div className={"portfolio"}>
         <h1>Projects</h1>
 <h2>Featured Projects</h2>
 <div className={"projects1"}>
@@ -17,7 +19,7 @@ const Project = () => {
                     image={codestation}
                     title="Code Station"
                     desc="Code Station is a full-stack MERN application for the coding community. Users can signup or login to browse latest coding opportunities, get closer to the coding community, and log your interest so you never miss out."
-                    skills="JavaScript, React.js, CSS, MongoDB, Mongoose, Express &amp;  Node.js"
+                    skills="JavaScript, React.js, CSS, MongoDB, Mongoose, Express &amp; Node.js"
                     github="https://github.com/Javabar/CN-CodeStation-38"
                     website="https://cn-codstation-38.netlify.app/"
                 />
@@ -58,7 +60,8 @@ const Project = () => {
                 />                */}
         </div>
         </div>
+        </div> 
      );
 }
  
-export default Project;
+export default Projects;
