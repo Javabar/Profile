@@ -76,10 +76,10 @@
         flex-direction: column;
         height: auto;
     }
-    .project-imag {
+    .project-img {
         height: 400px;
     }
-    .project-imag,
+    .project-img,
     .project-text {
         width: 100%;
     }
