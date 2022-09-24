@@ -4,7 +4,7 @@ import ProjectCodeStation from "./projectCodeStation";
 import ProjectWebsiteClone from "./projectWebsiteClone";
 import codestation from "../images/codestation.jpg";
 import websiteClone from "../images/websiteClone.jpg";
-import { BsGithub, BsFillPlayCircleFill } from "react-icons/bs";
+
 
 const Project = () => {
     return ( 
