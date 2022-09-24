@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     height: 400px;
-    width: 100%;
+    width: 1000px;
     background-color: var(--dark);
     border-radius: 10px;
     margin: 10px 0 80px;
@@ -18,13 +18,12 @@
     }
 
 .project-img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: 0 0;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: opacity 0.25s, filter 0.25s;
+    width: 550px;
+    height: 400px;
+    object-fit: fill;
+    object-position: 0 0;
+    border-radius: 10px;
+    transition: opacity 0.25s, filter 0.25s;
     }
 
 .project-text {
@@ -50,13 +49,44 @@
 }
 
 .icon {
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 
 
+.skills-text {
+    color: blue;
+    font-size: 14px;
+}
 
+@media all and (max-width: 1200px) {
+    .project {
+        width: 100%;
+    }
+    .project-imag {
+        width: 45%;
+    }
+	.project-text {
+        width: 55%;
+        padding: 40px;
+    }
+}
 
-
+@media all and (max-width: 800px) {
+    .project {
+        flex-direction: column;
+        height: auto;
+    }
+    .project-imag {
+        height: 400px;
+    }
+    .project-imag,
+    .project-text {
+        width: 100%;
+    }
+    .project-text h3 {
+        font-size: 24px;
+    }
+}
 
 
 

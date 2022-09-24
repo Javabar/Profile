@@ -15,7 +15,7 @@ const Project = () => {
                     image={codestation}
                     title="Code Station"
                     desc="Code Station is a full-stack MERN application for the coding community. Users can signup or login to browse latest coding opportunities, get closer to the coding community, and log your interest so you never miss out."
-                    skills="JavaScript, React.js, MongoDB &amp; Mongoose, Express, Node.js"
+                    skills="JavaScript, React.js, CSS, MongoDB, Mongoose, Express, Node.js"
                     github="https://github.com/Javabar/CN-CodeStation-38"
                     website="https://cn-codstation-38.netlify.app/"
                 />
@@ -24,7 +24,7 @@ const Project = () => {
                     image={websiteClone}
                     title="Website Clone"
                     desc="Cloning Krunch's website design as identical as possible, using only HTML and CSS. This was one of my first projects during the Code Nation bootcamp."
-                    skills="JavaScript, React.js, MongoDB &amp; Mongoose, Express, Node.js"
+                    skills="HTML &amp; CSS"
                     github="https://github.com/Javabar/Website-Clone"
                     website="https://website-clone-6e0cd4.netlify.app/"
                     

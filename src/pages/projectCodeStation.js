@@ -13,7 +13,7 @@ const ProjectCodeStation = (props) => {
                 <div>
                     <h3>{props.title}</h3>
                     <p>{props.desc}</p>
-                    <p><span>{props.skills}</span></p>
+                    <p className={"skills-text"}>{props.skills}</p>
                 </div>
                 <div className={"project-link"}>
                     <a href={props.github} target="_blank" rel="noopener noreferrer">
