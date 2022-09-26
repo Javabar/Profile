@@ -51,13 +51,13 @@ const Projects = () => {
                     website="https://cn-m38-desk3-cats4life.netlify.app/"
                 />        
 
-{/* <OtherProjects
-                    title=""
-                    desc=""
-                    skills="HTML &amp; CSS"
-                    github=""
-                    website=""
-                />                */}
+<OtherProjects
+                    title="Javascript Fundamentals"
+                    desc="Showing the key skills learnt using Javascript"
+                    skills="Javascript"
+                    github="https://github.com/Javabar/Javascript-Fundamentals"
+                    // website=""
+                />               
         </div>
         </div>
         </div> 

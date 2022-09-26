@@ -1,14 +1,12 @@
 .portfolio { 
-    max-width: fit-content;
+    /* max-width: fit-content; */
 } 
 
 
   .project {
     display: flex;
     flex-direction: row;
-    height: 400px;
-    width: 1000px;
-    background-color: var(--dark);
+    /* background-color: var(--dark); */
     border-radius: 10px;
     margin: 10px 0 80px;
     
@@ -28,15 +26,15 @@
     object-fit: fill;
     object-position: 0 0;
     border-radius: 10px;
-    transition: opacity 0.25s, filter 0.25s;
+    /* transition: opacity 0.25s, filter 0.25s; */
     }
 
 .project-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
-    height: 100%;
+    /* width: 50%;
+    height: 100%; */
     padding: 60px
 }
 
@@ -78,28 +76,28 @@ padding-top: 40px;
     width: 100%;
 }
 .other-project {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; 
     min-width: 250px;
-    width: 100%;
+    width: 100%; 
     min-height: 300px;
-    /* background-color: var(--dark);
-    border: 3px solid var(--dark); */
+    background-color: var(--dark);
+    border: 3px solid var(--dark); 
     border-radius: 10px;
     transition: border 0.3s;
-    /* margin: 10px; */
+    margin: 10px; */
 }
 
 .other-project:hover {
-    border: 3px solid var(--accent);
+    /* border: 3px solid var(--accent); */
 }
 
 .other-project-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    padding: 35px;
+    /* justify-content: space-between; */
+    height: 150px;
+    padding: 10px;
 }
 
 .other-project-text-box {
@@ -161,7 +159,7 @@ padding-top: 40px;
 
 @media all and (max-width: 1000px) {
     .projects2 {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(3, auto);
     }
 }
 

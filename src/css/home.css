@@ -1,6 +1,6 @@
 body {
     background: #FFFFE3;
-    color: #253A52;
+    /* color: #253A52; */
     padding: 25px;
     font-family: sans-serif;
     max-width: fit-content;
@@ -19,12 +19,6 @@ body {
   
   .bio {
     display: flex;
-  }
-  
-  @media (max-width: 1024px) {
-    .bio {
-      flex-direction: column;
-    }
   }
   
   .intro {
@@ -50,3 +44,8 @@ font-size: 30px;
     margin-top: -40px;
   }
   
+  @media (max-width: 1024px) {
+    .bio {
+      flex-direction: column;
+    }
+  }
