@@ -1,6 +1,6 @@
-.portfolio { 
+/* .portfolio {  */
     /* max-width: fit-content; */
-} 
+/* }  */
 
 
   .project {
@@ -75,7 +75,7 @@ padding-top: 40px;
     gap: 20px;
     width: 100%;
 }
-.other-project {
+/* .other-project { */
     /* display: flex;
     flex-direction: row; 
     min-width: 250px;
@@ -86,11 +86,11 @@ padding-top: 40px;
     border-radius: 10px;
     transition: border 0.3s;
     margin: 10px; */
-}
+/* } */
 
-.other-project:hover {
+/* .other-project:hover { */
     /* border: 3px solid var(--accent); */
-}
+/* } */
 
 .other-project-text {
     display: flex;
