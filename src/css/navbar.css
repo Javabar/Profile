@@ -3,17 +3,17 @@
     align-items: center;
     justify-content: flex-end;
     text-decoration: none;
-    /* background-color:  #fafad8; */
+    background-color:  antiquewhite;
 }
 
-/* .navbar:hover {
+.navbar:hover {
     background-color: aqua;
-} */
+}
 
 .home {
     margin: 10px;
     font-size: 20px;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .home:hover {

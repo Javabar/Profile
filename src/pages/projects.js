@@ -12,11 +12,8 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
     return ( 
-        <motion.section 
-            id="Portfolio" 
-            className="portfolio"
-        >
-        <div>
+        <motion.section id="Project" className="portfolio">
+        
            <div className="portfolio">
         <h1>Projects</h1>
 <h2 className="subtitle">Featured Projects</h2>
@@ -57,16 +54,16 @@ const Projects = () => {
                     website="https://cn-m38-desk3-cats4life.netlify.app/"
                 />        
 
-<OtherProjects
+        <OtherProjects
                     title="Javascript Fundamentals"
                     desc="Showing the key skills learnt using Javascript"
                     skills="Javascript"
                     github="https://github.com/Javabar/Javascript-Fundamentals"
-                    // website=""
+                    
                 />               
         </div>
         </div>
-        </div> 
+    
         </motion.section>
      );
 }

@@ -115,14 +115,6 @@ padding-top: 40px;
     margin-bottom: 10px;
 }
 
-.other-project-text span {
-    /* font-family: var(--codetext); */
-    font-size: 14px;
-}
-
-.other-project-link {
-    margin: 0 0 -10px;
-}
 
 .other-project-link a {
     margin-right: 25px;

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../css/about.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-// import { BsPatchCheckFill } from "react-icons/bs";
+
 
 const About = () => {
 
