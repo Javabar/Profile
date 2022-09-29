@@ -87,7 +87,7 @@ const Home = () => {
       };
 
     return (
-
+<div>
     <header id="bio">
         <motion.div variants={animateArt} initial="initial" animate="animate" className="image">
              <div className="image-profile">
@@ -108,6 +108,7 @@ const Home = () => {
         {/* </div> */}
         </motion.div>
     </header>
+    </div>
                
     )
 };

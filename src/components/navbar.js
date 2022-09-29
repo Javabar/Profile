@@ -18,6 +18,12 @@ const Navbar = () => {
         </Link>
         </div>
 
+        {/* <div className="skills">
+        <Link to="/Skills">
+          <p>Skills</p>
+        </Link>
+        </div> */}
+
         <div className="projects">
         <Link to="/Projects">
           <p>Projects</p>

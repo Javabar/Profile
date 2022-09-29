@@ -93,7 +93,7 @@ header button:hover {
 .social {
   width: 180px;
 	height: 60px;
-
+/* display:contents; */
 }
 
 .social1 {
@@ -103,9 +103,9 @@ header button:hover {
 }
 
 
-.social::after {
+/* .social::after {
  
-}
+} */
 
 @media all and (max-width: 1200px) {
 	header h1 {
