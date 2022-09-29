@@ -96,6 +96,13 @@ header button:hover {
 
 }
 
+.social1 {
+  width: 180px;
+	height: 60px;
+
+}
+
+
 .social::after {
  
 }

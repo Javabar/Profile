@@ -104,7 +104,7 @@ const Home = () => {
         </motion.button>
         {/* <div className="social"> */}
             <motion.a variants={animateStyle} href="https://github.com/Javabar" target="blank" rel="noreferrer" className="social"><BsGithub /></motion.a>
-            <motion.a variants={animateStyle} href="https://www.linkedin.com/in/abdelbar-benaida-aa25b982/" target="blank" rel="noreferrer" className="social"><BsLinkedin /></motion.a>
+            <motion.a variants={animateStyle} href="https://www.linkedin.com/in/abdelbar-benaida-aa25b982/" target="blank" rel="noreferrer" className="social1"><BsLinkedin /></motion.a>
         {/* </div> */}
         </motion.div>
     </header>
