@@ -6,7 +6,6 @@
   .project {
     display: flex;
     flex-direction: row;
-    /* background-color: var(--dark); */
     border-radius: 10px;
     margin: 10px 0 80px;
     
@@ -16,7 +15,6 @@
     position: relative;
     width: 50%;
     height: 100%;
-    /* background: var(--accent); */
     border-radius: 10px;
     }
 
@@ -26,7 +24,7 @@
     object-fit: fill;
     object-position: 0 0;
     border-radius: 10px;
-    /* transition: opacity 0.25s, filter 0.25s; */
+    transition: opacity 0.25s, filter 0.25s;
     }
 
 .project-text {

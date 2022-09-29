@@ -93,19 +93,11 @@ header button:hover {
 .social {
   width: 180px;
 	height: 60px;
-	/* display: flex;
-  flex-direction: ;
-  -ms-flex-align: end;
-  align-items:center; */
-  
-  /* margin: 0 20px 40px; */
+
 }
 
 .social::after {
-  /* content: "";
-  width: 1px;
-  height: 2rem; */
-  /* background: var(--color-primary); */
+ 
 }
 
 @media all and (max-width: 1200px) {
@@ -154,59 +146,4 @@ header button:hover {
 		width: 100%;
 		padding: 0 40px;
 	}
-	/* .image {
-		display:flex;
-	} */
 }
-
-/* body {
-    background: #FFFFE3;
-    color: #253A52;
-    padding: 25px;
-    font-family: sans-serif;
-    max-width: fit-content;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    font-size: 50px;
-  }
-  
-  .ProfilePicture {
-    width: 300px;
-    margin-inline-end: 4rem;
-    border-radius: 300px;
-  }
-  
-  .bio {
-    display: flex;
-  }
-  
-  .intro {
-font-size: 30px;
-  } 
-
-  a.btn {
-    text-decoration: none;
-    color: #FFFFE3;
-    background: #1348DA;
-    padding: 0 10px;
-    height: 30px;
-    display: inline-flex;
-    align-items: center;
-    border-radius: 1.25rem;
-    margin: 5px;
-  }
-
-
-  .header2  {
-    font-size: 30px;
-    padding-top: 1px;
-    margin-top: -40px;
-  }
-  
-  @media (max-width: 1024px) {
-    .bio {
-      flex-direction: column;
-    }
-  } */
