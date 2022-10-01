@@ -8,23 +8,25 @@ const Navbar = () => {
     return ( 
 
 <div className="navbar">
-<div className="home">
-        <a href="#Home">
+
+      <div className="home">
+        <a href="#Home" rel="noreferrer">
           <p>Home</p>
         </a>
-        </div>
+      </div>
 
-        <div className="about">
-        <a href="#About">
+      <div className="about">
+        <a href="#About" rel="noreferrer">
           <p>About Me</p>
         </a>
-        </div>
+      </div>
 
-        <div className="projects">
-        <a href="#Projects">
+      <div className="projects">
+        <a href="#Projects" rel="noreferrer">
           <p>Projects</p>
         </a>
-        </div>
+      </div>
+
 </div>
     
     );

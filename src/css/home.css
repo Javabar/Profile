@@ -3,46 +3,46 @@ header {
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-end;
-	min-height: 550px;
+	min-height: 250px;
 	text-align: center;
-  background-color: antiquewhite;
 }
 
 header h1 {
-	/* color: var(--accent);
-	font-family: var(--bigtext); */
-	font-size: 84px;
+	font-size: 60px;
 	font-weight: 800;
 	line-height: 1;
-	letter-spacing: -1.5px;
-	margin: 0 20px 40px;
-  text-align: end;
+	letter-spacing: -2px;
+  	text-align: end;
+	padding-top: 100px;
+	color: var(--accent);
+	font-family: var(--bigtext);
 }
 
 header h2 {
+	text-align: end;
 	font-size: 50px;
+	font-weight: 400;
 	letter-spacing: -1px;
 	line-height: 50px;
-	margin: 0 20px 40px;
-}
-
-header h2 span {
-	font-weight: 600;
+	color: var(--light);
+	font-family: var(--bigtext);
 }
 
 header p {
 	width: 500px;
 	text-align: end;
-  font-size: 20px;
-	margin: 0 20px 40px;
+  	font-size: 20px;
 }
 
 header button {
 	width: 180px;
 	height: 60px;
 	background-color: antiquewhite;
-	border: 2px solid;
+	border: 2px solid var(--accent);
 	border-radius: 10px;
+	color: var(--accent);
+	background-color: var(--bg);
+	font-family: var(--smalltext);
 	font-family:sans-serif;
 	font-size: 20px;
 	font-weight: 600;
@@ -50,13 +50,13 @@ header button {
 	cursor: pointer;
 	transition: width 0.5s, color 0.5s, background-color 0.5s,
 		font-size 0.5s, font-weight 0.5s;
-  margin: 0 20px 40px;
+  	margin: 0 20px 40px;
 }
 
 header button:hover {
 	width: 250px;
-	/* color: var(--bg); */
-	background-color: lightgoldenrodyellow;
+	color: var(--bg);
+	background-color: var(--accent);
 	font-weight: 600;
 }
 
@@ -66,46 +66,33 @@ header button:hover {
 	align-items: flex-end;
 }
 
-.image {
-	z-index: 1000;
-	align-content:flex-start;
-  display: flex;
-	top: 600px;
-	left: 500px;
-  
-}
-
 .image-profile {
 	position: relative;
-	width: 500px;
-	height: 600px;
-  align-content:flex-start;
+	height: 385px;
+	bottom: 135px;
 }
 
 .image-profile img {
-	width: 100%;
-	height: 100%;
+	width: 400px;
+	height: 570px;
 	object-fit: cover;
-  border-radius: 30px;
-  align-content:flex-start;
+  	border-radius: 40px;
 }
 
 .social {
-  width: 180px;
+  	width: 180px;
 	height: 60px;
-/* display:contents; */
+	font-size: 50px;
+	margin-bottom: 20px;
+	display:flex;
 }
 
 .social1 {
-  width: 180px;
+ 	width: 180px;
 	height: 60px;
-
+	font-size: 50px;
+	
 }
-
-
-/* .social::after {
- 
-} */
 
 @media all and (max-width: 1200px) {
 	header h1 {

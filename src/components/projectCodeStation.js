@@ -6,7 +6,6 @@ import { BsGithub, BsFillPlayCircleFill } from "react-icons/bs";
 const ProjectCodeStation = (props) => {
     return (
         <div className={"project"}>
-            <div></div>
             <div className={"project-img"}>
                 <img src={props.image} alt="" />
             </div>

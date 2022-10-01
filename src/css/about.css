@@ -1,26 +1,28 @@
-/* .container {
-  display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%;
-} */
+.title-about {
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 10px;
+}
+
   .cards {
-    display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    gap: 1.5rem;
+    display: flex;
+    gap: 10px;
     margin-right: 20px;
+    margin-top: 20px;
+    word-spacing: 05px;
   }
 
   .card {
     background: lavender;
-    /* color: black; */
+    color: var(--color-white);
     border: 1px solid;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
-    transition: 0.3s;
+    transition: var(--transition);
+    height: 150px;
+    
   }
   
   .card:hover {
@@ -29,13 +31,15 @@
     cursor: default;
     color: var(--color-white);
   }
-  .h5 {
-    font-size: 1.5rem;
+
+  .card h5 {
+    font-size: 25px;
     color: var(--color-primary);
   }
-  /* .small {
+  
+  .card small {
     font-size: 0.9rem;
-  } */
+  }
   
   
   
@@ -49,10 +53,6 @@
     flex-wrap: wrap;
     align-items: center;
   }
-  /* .about_me {
-    width: 50%;
-    margin: 2rem auto 4rem;
-  } */
 }
 
 /* small media devices */
@@ -64,10 +64,6 @@
     flex-wrap: wrap;
     align-items: center;
   }
-  /* .about_me {
-    width: 65%;
-    margin: 0 auto 3rem;
-  } */
 
   .content {
     text-align: center;

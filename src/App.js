@@ -1,22 +1,23 @@
 import "./App.css"
-import Home from "./pages/home"
-import About from "./pages/about";
-import Projects from "./pages/projects";
-import Navbar from "./components/navbar";
-import FooterBanner from "./pages/footer"
-
+import Home from "../src/pages/home";
+import About from "../src/pages/about";
+import Projects from "../src/pages/projects";
+import Navbar from "../src/components/navbar";
+import FooterBanner from "../src/pages/footer";
 
 const App = () => {
   return ( 
     <div className="app">
-      <div className="app-container">
-      <Navbar />
-      <Home />
-      <About />
+
+    <div className="container">
+      <Navbar/>
+      <Home/>
+      <About/>
       <Projects/>
       <FooterBanner />
-      </div>
-      </div>
+    </div>
+
+    </div>
     
     
    );

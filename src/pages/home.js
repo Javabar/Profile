@@ -13,6 +13,7 @@ const Home = () => {
             opacity: 0,
             scale: 1.5
         },
+
         animate: {
             x: 0,
             opacity: 1,
@@ -22,7 +23,7 @@ const Home = () => {
                 ease: "easeOut",
             }
         }
-    }
+    };
 
     const animateText = {
         initial: {
@@ -34,7 +35,7 @@ const Home = () => {
                 staggerChildren: 0.75
             }
         }
-    }
+    };
 
     const animateOne = {
         initial: {
@@ -51,7 +52,7 @@ const Home = () => {
                 ease: "easeOut",
             }
         }
-    }
+    };
 
     const animateButton = {
         initial: {
@@ -67,7 +68,7 @@ const Home = () => {
                 bounce: 0.5
             }
         }
-    }
+    };
 
     const animateStyle = {
         initial: {
@@ -82,12 +83,12 @@ const Home = () => {
           transition: {
             duration: 0.75,
             ease: "easeOut",
-          },
-        },
+          }
+        }
       };
 
     return (
-<div>
+ <div>
     <header id="bio">
         <motion.div variants={animateArt} initial="initial" animate="animate" className="image">
              <div className="image-profile">
@@ -102,13 +103,13 @@ const Home = () => {
         <motion.button variants={animateButton} initial="initial" animate="animate" className="btn">
             <a href={CV} download className="btn" target="_blank" rel="noreferrer">Download CV</a>
         </motion.button>
-        {/* <div className="social"> */}
+        <div className="social">
             <motion.a variants={animateStyle} href="https://github.com/Javabar" target="blank" rel="noreferrer" className="social"><BsGithub /></motion.a>
-            <motion.a variants={animateStyle} href="https://www.linkedin.com/in/abdelbar-benaida-aa25b982/" target="blank" rel="noreferrer" className="social1"><BsLinkedin /></motion.a>
-        {/* </div> */}
+            <motion.a variants={animateStyle} href="https://www.linkedin.com/in/abdelbar-benaida-aa25b982/" target="blank" rel="noreferrer" className="social"><BsLinkedin /></motion.a>
+            </div>
         </motion.div>
     </header>
-    </div>
+ </div>
                
     )
 };
@@ -127,29 +128,3 @@ export default Home;
 
 
 
-
-
-{/* // import profile from "../images/profile.jpg";
-// // import "../css/app.css";
-// import "../css/home.css";
-// import CV from "../files/CV.pdf";
-
-// const Home = () => {
-    return ( 
-        <section className="bio">
-
-            <img className="ProfilePicture" src={profile} alt="Profile pic" />
-   
-        <div>
-        <h1>Hello! I am Abdelbar Benaida.</h1>
-        <h2 className="header2">I love to design &amp; code</h2>
-      <p className="intro">I am an aspiring Software Developer from the UK. I enjoy building front-end and back-end applications.</p>
-      <a className="btn" href="https://github.com/Javabar" target="blank">GitHub</a>
-      <a className="btn" href="https://www.linkedin.com/in/abdelbar-benaida-aa25b982/" target="blank">LinkedIn</a>
-      <a className="btn" href={CV} download target="_blank" rel="noreferrer">Download CV</a>
-        </div>
-        </section>
-     );
-}
- 
-export default Home; */}

@@ -6,6 +6,9 @@ import { BsGithub, BsFillPlayCircleFill } from "react-icons/bs";
 const ProjectWebsiteClone = (props) => {
     return (
         <div className={"project"}>
+            <div className={"project-img"}>
+                <img src={props.image} alt="" />
+            </div>
             <div className={"project-text"}>
                 <div>
                     <h3>{props.title}</h3>
@@ -21,9 +24,7 @@ const ProjectWebsiteClone = (props) => {
                        </a>
                 </div>
             </div>
-            <div className={"project-img"}>
-                <img src={props.image} alt="" />
-            </div>
+            
         </div>
     );
 }

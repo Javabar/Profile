@@ -7,35 +7,34 @@ import { useInView } from "react-intersection-observer";
 const About = () => {
 
     const {ref, inView} = useInView({
-        threshold: 0.2
+        threshold: 0.4
     });
-    const animateAbout = useAnimation();
+    const animateAboutMe = useAnimation();
 
     useEffect(() => {
         if (inView) {
-            animateAbout.start({
+            animateAboutMe.start({
                 x: 0,
-                opacity: 1,
+                opacity: 1.5,
                 transition: {
-                    duration: 0.75,
-                    staggerChildren: 0.2,
+                duration: 0.95,
+                staggerChildren: 0.4,
                 }
             })
         };
         if (!inView) {
-            animateAbout.start({
-                x: -100,
-                opacity: 0
+            animateAboutMe.start({
+                x: -200,
+                opacity: 10
             })
         };
     });
 
-
-
     return (
-    <motion.div  ref={ref} animate={animateAbout} id="About" className="about">
- 
+    <motion.div  ref={ref} animate={animateAboutMe} id="About" className="about">
+        <div className="title-about">
     <h1>About Me</h1>
+    </div>
   
       <div className="container">
      <div className="about-container">

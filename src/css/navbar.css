@@ -1,31 +1,60 @@
 .navbar {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    right: 145px;
+    width: 100vw;
+    height: 40px;
+    background: var(--bg);
     text-decoration: none;
-    background-color:  antiquewhite;
 }
 
-.navbar:hover {
-    background-color: aqua;
+.navbar p:hover {
+    font-style: black;
+    text-decoration: none;
 }
 
 .home {
     margin: 10px;
     font-size: 20px;
-    text-decoration: none;
+    padding-top: 15px;
 }
 
-.home:hover {
+.home p:hover {
     color: blue;
+}
+
+.home a {
+    text-decoration: none;
 }
 
 .about {
     margin: 10px;
     font-size: 20px;
+    padding-top: 15px;
+}
+
+.about p:hover {
+    color: blue;
+}
+
+.about a {
+    text-decoration: none;
 }
 
 .projects {
     margin: 10px;
     font-size: 20px;
+    padding-top: 15px;
+}
+
+.projects p:hover {
+    color: blue;
+}
+
+.projects a {
+    text-decoration: none;
 }

@@ -15,8 +15,7 @@ const Projects = () => {
         <motion.section id="Project" className="portfolio">
         
            <div className="portfolio">
-        <h1>Projects</h1>
-<h2 className="subtitle">Featured Projects</h2>
+<h2 className="title-projects">Projects</h2>
 <div className={"projects1"}>
         <ProjectCodeStation
                     image={codestation}
@@ -37,11 +36,11 @@ const Projects = () => {
                 />
        </div>
 
-        <h2 className="subtitle">Other Projects</h2>
+        {/* <h2 className="subtitle">Projects</h2> */}
         <div className="projects2">
        <OtherProjects
                     title="REST API"
-                    desc="A simple REST API with two databases."
+                    desc="A REST API with two databases."
                     skills="MongoDB, Mongoose, Express &amp; JavaScript"
                     github="https://github.com/Javabar/Rest-API"
                 />
