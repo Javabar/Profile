@@ -5,11 +5,18 @@ footer {
   
   footer p {
     text-align: center;
+    color: var(--peach);
   }
   
-  .footer-icon {
+  .footer-icon  {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    color: var(--peach);
+  }
+
+  .footer-icon a {
+    font-size: 20px;
+    color: var(--peach);
   }
