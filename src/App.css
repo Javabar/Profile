@@ -5,16 +5,12 @@
   --smalltext-size: 17px;
   --codetext-size: 15px;
   --bg: #26648b;
-  /* dark */
   --box: #ffe3b3;
-  /* light */
   --dark-blue: #4f8fbf;
-  /* accent */
   --peach: #ffe3b3;
-  /* color-primary */
   --light-blue: #53d2db;
-  /* color-white */
-  --color-black: black;
+  --black: black;
+  --white: white;
   --transition: all 400ms ease;
 }
 
