@@ -4,15 +4,17 @@
   --bigtext-size: 36px;
   --smalltext-size: 17px;
   --codetext-size: 15px;
-  --bg: #05A1AD;
-  --black: #000000;
-  --white: #ffffff;
-  --grey: #a8a5b6;
-  --dark: #f45556;
-  --light: #f1f1f1;
-  --accent: #f45556;
-  --color-primary: rgba(77, 181, 255, 0.921);
-  --color-white: #fff;
+  --bg: #26648b;
+  /* dark */
+  --box: #ffe3b3;
+  /* light */
+  --dark-blue: #4f8fbf;
+  /* accent */
+  --peach: #ffe3b3;
+  /* color-primary */
+  --light-blue: #53d2db;
+  /* color-white */
+  --color-black: black;
   --transition: all 400ms ease;
 }
 
@@ -26,7 +28,7 @@ background: var(--bg);
 }
 
 ::-webkit-scrollbar-thumb {
-background: var(--dark);
+background: var(--box);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -74,7 +76,7 @@ margin: 10px 0 40px;
 }
 
 h4 {
-  color: var(--accent);
+  color: var(--title);
   font-family: var(--codetext);
   font-size: 20px;
 font-weight: 600;

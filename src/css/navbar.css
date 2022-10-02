@@ -4,27 +4,30 @@
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    z-index: 9999;
+    /* z-index: 9999; */
     right: 145px;
-    width: 100vw;
-    height: 40px;
+    width: 3000px;
+    height: 60px;
     background: var(--bg);
     text-decoration: none;
 }
 
 .navbar p:hover {
-    font-style: black;
     text-decoration: none;
 }
 
 .home {
     margin: 10px;
-    font-size: 20px;
     padding-top: 15px;
 }
 
+.home p {
+    color: var(--light-blue);
+    font-size: 20px;
+}
+
 .home p:hover {
-    color: blue;
+    color: var(--peach);
 }
 
 .home a {
@@ -33,12 +36,16 @@
 
 .about {
     margin: 10px;
-    font-size: 20px;
     padding-top: 15px;
 }
 
+.about p {
+    color: var(--light-blue);
+    font-size: 20px;
+}
+
 .about p:hover {
-    color: blue;
+    color: var(--peach);
 }
 
 .about a {
@@ -47,14 +54,19 @@
 
 .projects {
     margin: 10px;
-    font-size: 20px;
     padding-top: 15px;
 }
 
+.projects p {
+    color: var(--light-blue);
+    font-size: 20px;
+}
+
 .projects p:hover {
-    color: blue;
+    color: var(--peach);
 }
 
 .projects a {
     text-decoration: none;
+    font-size: 0px;
 }

@@ -14,7 +14,7 @@ header h1 {
 	letter-spacing: -2px;
   	text-align: end;
 	padding-top: 100px;
-	color: var(--accent);
+	color: var(--peach);
 	font-family: var(--bigtext);
 }
 
@@ -24,7 +24,7 @@ header h2 {
 	font-weight: 400;
 	letter-spacing: -1px;
 	line-height: 50px;
-	color: var(--light);
+	color: var(--peach);
 	font-family: var(--bigtext);
 }
 
@@ -32,15 +32,16 @@ header p {
 	width: 500px;
 	text-align: end;
   	font-size: 20px;
+	color: var(--light-blue);
 }
 
 header button {
 	width: 180px;
 	height: 60px;
-	background-color: antiquewhite;
-	border: 2px solid var(--accent);
+	background-color: var(--peach);
+	border: 2px solid var(--peach);
 	border-radius: 10px;
-	color: var(--accent);
+	color: var(--title);
 	background-color: var(--bg);
 	font-family: var(--smalltext);
 	font-family:sans-serif;
@@ -56,7 +57,7 @@ header button {
 header button:hover {
 	width: 250px;
 	color: var(--bg);
-	background-color: var(--accent);
+	background-color: var(--peach);
 	font-weight: 600;
 }
 
@@ -67,31 +68,31 @@ header button:hover {
 }
 
 .image-profile {
-	position: relative;
-	height: 385px;
-	bottom: 135px;
+	height: 500px;
+	margin-top: 100px;
 }
 
 .image-profile img {
 	width: 400px;
-	height: 570px;
+	height: 450px;
 	object-fit: cover;
   	border-radius: 40px;
+	padding-top: 20px;
 }
 
 .social {
   	width: 180px;
-	height: 60px;
+	height: 40px;
 	font-size: 50px;
 	margin-bottom: 20px;
 	display:flex;
+	color: var(--peach);
 }
 
 .social1 {
  	width: 180px;
 	height: 60px;
 	font-size: 50px;
-	
 }
 
 @media all and (max-width: 1200px) {

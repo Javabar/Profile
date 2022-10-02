@@ -2,6 +2,7 @@
   text-align: center;
   padding: 40px;
   padding-bottom: 10px;
+  color: var(--peach);
 }
 
   .cards {
@@ -11,11 +12,12 @@
     margin-right: 20px;
     margin-top: 20px;
     word-spacing: 05px;
+    
   }
 
   .card {
-    background: lavender;
-    color: var(--color-white);
+    background: var(--peach);
+    color: var(--dark-blue);
     border: 1px solid;
     border-radius: 20px;
     padding: 20px;
@@ -27,18 +29,25 @@
   
   .card:hover {
     background: transparent;
-    border-color: var(--color-primary);
+    border-color: var(--light-blue);
     cursor: default;
-    color: var(--color-white);
+    /* color: var(--color-black); */
   }
 
   .card h5 {
     font-size: 25px;
-    color: var(--color-primary);
+    color: var(--light-blue);
   }
+  
+  .card p {
+    font-size: 25px;
+    color: var(--dark-blue);
+  }
+  
   
   .card small {
     font-size: 0.9rem;
+    color: var(--dark-blue);
   }
   
   

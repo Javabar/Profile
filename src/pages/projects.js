@@ -55,7 +55,7 @@ const Projects = () => {
 
         <OtherProjects
                     title="Javascript Fundamentals"
-                    desc="Showing the key skills learnt using Javascript"
+                    desc="Showing the key skills learnt using Javascript."
                     skills="Javascript"
                     github="https://github.com/Javabar/Javascript-Fundamentals"
                     
