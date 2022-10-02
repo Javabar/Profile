@@ -5,11 +5,12 @@
     align-items: center;
     position: fixed;
     z-index: 9999;
-    right: 145px;
+    right: 45px;
     width: 3000px;
     height: 60px;
     background: var(--bg);
     text-decoration: none;
+    padding-right: 100px;
 }
 
 .navbar p:hover {
