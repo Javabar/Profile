@@ -14,17 +14,27 @@
     color: var(--dark-blue);
   }
   
-  @media screen and (max-width: 1024px) {
-    .container.contact_container {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    form {
-      margin: 20px;
-    }
-  }
+  .contact-btn {
+    width: 180px;
+	height: 60px;
+	background-color: transparent;
+	border: 3px solid var(--peach);
+	border-radius: 20px;
+	color: var(--peach);
+	font-family: var(--smalltext);
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+    margin-left: 160px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.contact-btn:hover {
+	color: var(--bg);
+	background-color: var(--peach);
+}
+
 
   
 .contact {
@@ -82,7 +92,7 @@
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	cursor: pointer;
-	
+
 }
 
 .contact-socials button:hover {
@@ -92,29 +102,7 @@
 	font-weight: 450;
 }
 
-.contact-btn {
-    width: 180px;
-	height: 60px;
-	background-color: transparent;
-	border: 3px solid var(--peach);
-	border-radius: 20px;
-	color: var(--peach);
-	font-family: var(--smalltext);
-	font-size: 18px;
-	font-weight: 700;
-	letter-spacing: 1.5px;
-    margin-left: 160px;
-	text-transform: uppercase;
-	cursor: pointer;
 
-}
-
-.contact-btn:hover {
-	width: 225px;
-	color: var(--bg);
-	background-color: var(--peach);
-	font-weight: 450;
-}
 
 @media all and (max-width: 800px) {
     .contact-container {
@@ -134,3 +122,16 @@
         margin: 0 0 40px;
     }
 }
+
+
+@media screen and (max-width: 1024px) {
+    .container.contact_container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    form {
+      margin: 20px;
+    }
+  }

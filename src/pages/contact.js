@@ -34,8 +34,8 @@ const Contact = () => {
     });
 
   return (
-    <motion.section ref={ref} animate={animateContact}id="Contact" className="contact">
-    <section id="contact">
+    <motion.section ref={ref} animate={animateContact} id="Contact" className="contact">
+    <section>
       <h2>Get In Touch</h2>
 
       <div className="contact-conatiner">
