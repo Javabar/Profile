@@ -20,7 +20,7 @@ const About = () => {
                 opacity: 1,
                 transition: {
                 duration: 0.8,
-                staggerChildren: 0.2,
+                staggerChildren: 0.3,
                 }
             })
         };
@@ -40,9 +40,9 @@ const About = () => {
   
       <div className="container">
         <div className="hobbies">
-            <div className="image-container">
+        <div className="image-container">
         <h2>Interests & Hobbies</h2>
-        <ImageSlider  slides={SliderData}></ImageSlider>
+        <ImageSlider slides={SliderData}></ImageSlider>
         </div>
         </div>
      <div className="about-container">

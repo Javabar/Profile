@@ -27,6 +27,11 @@ const Navbar = () => {
         </a>
       </div>
 
+      <div className="contact">
+        <a href="#Contact" rel="noreferrer">
+          <p>Contact</p>
+        </a>
+      </div>
 </div>
     
     );

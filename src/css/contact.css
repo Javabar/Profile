@@ -1,0 +1,136 @@
+ form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  input, textarea {
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: var(--peach);
+    border: 2px solid var(--peach);
+    color: var(--dark-blue);
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .container.contact_container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    form {
+      margin: 20px;
+    }
+  }
+
+  
+.contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.contact h2 {
+    padding: 10px;
+    margin-bottom: -20px;
+    color: var(--peach);
+}
+
+.contact-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 580px;
+    margin: 10px 0 0;
+}
+
+.contact-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 280px;
+    padding: 30px;
+    font-size: 70px;
+    color: var(--peach);
+    cursor: pointer;
+    transition: width 0.3s;
+}
+
+.contact-icons h3 {
+    color: var(--light-blue);
+    font-size: 15px;
+}
+
+.contact-type button {
+	width: 180px;
+	height: 60px;
+    margin-top: 40px;
+	background-color: transparent;
+	border: 3px solid var(--peach);
+	border-radius: 20px;
+	color: var(--peach);
+	font-family: var(--smalltext);
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	
+}
+
+.contact-type button:hover {
+	width: 225px;
+	color: var(--bg);
+	background-color: var(--peach);
+	font-weight: 450;
+}
+
+.btn {
+    width: 180px;
+	height: 60px;
+	background-color: transparent;
+	border: 3px solid var(--peach);
+	border-radius: 20px;
+	color: var(--peach);
+	font-family: var(--smalltext);
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+    margin-left: 160px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+
+.btn:hover {
+	width: 225px;
+	color: var(--bg);
+	background-color: var(--peach);
+	font-weight: 450;
+}
+
+@media all and (max-width: 800px) {
+    .contact-area {
+        width: 460px;
+    }
+    .contact-type {
+        width: 220px;
+    }
+}
+
+@media all and (max-width: 560px) {
+    .contact {
+        margin: 20px 0;
+    }
+    .contact-area {
+        flex-direction: column;
+        margin: 0 0 40px;
+    }
+}
