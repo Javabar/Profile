@@ -12,7 +12,7 @@ import OtherProjects from "../components/otherProjects";
 const Projects = () => {
 
     return ( 
-<div id="projects">
+<div id="projects" >
 <h2 className="title-projects">Projects</h2>
 <div className="projects1">
         <ProjectCodeStation
