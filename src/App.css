@@ -28,7 +28,7 @@ background: var(--box);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: var(--grey);
+background: var(--peach);
 }
 
 * {
@@ -40,15 +40,15 @@ background: var(--grey);
 body {
   font-family: var(--smalltext);
   background: var(--bg);
-  color: var(--light);
+  color: var(--black);
   z-index: 1;
 }
 
 .app {
   display: flex;
-flex-direction: column;
+/* flex-direction: column; */
 justify-content: center;
-align-items: center;
+/* align-items: center; */
 }
 
 .container {
@@ -58,7 +58,7 @@ align-items: center;
 section {
   display: flex;
 flex-direction: column;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;
 }
 
@@ -78,11 +78,10 @@ h4 {
 font-weight: 600;
 letter-spacing: 1px;
 text-transform: uppercase;
-  /* margin-bottom: 10px; */
 }
 
 p {
-  color: var(--grey);
+  color: var(--peach);
   font-size: var(--smalltext-size);
   line-height: 1.75rem;
   margin-bottom: 18px;

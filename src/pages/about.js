@@ -17,17 +17,17 @@ const About = () => {
         if (inView) {
             animateAboutMe.start({
                 x: 0,
-                opacity: 1.5,
+                opacity: 1,
                 transition: {
-                duration: 0.95,
-                staggerChildren: 0.4,
+                duration: 0.8,
+                staggerChildren: 0.2,
                 }
             })
         };
         if (!inView) {
             animateAboutMe.start({
-                x: -200,
-                opacity: 10
+                x: -100,
+                opacity: 2
             })
         };
     });
@@ -54,11 +54,11 @@ const About = () => {
       </article>
       <article className="card">
       <h5>Experience</h5>
-      <p>Recently, I completed Master Bootcamp IT Level 4 at Code Nation, I am keen and passionate to explore and learn more about other programming languages and skills. I have started looking into C#.</p>
+      <p className="para">Recently, I completed Master Bootcamp IT Level 4 at Code Nation, I am keen and passionate to explore and learn more about other programming languages and skills. I have started looking into C#.</p>
       </article>
       <article className="card">
       <h5>Goals</h5>
-      <p>I am looking for a challenging new opportunity to kickstart my career in coding within the software development industry. I want to utilise my existing skills and advance my knowledge in the industry.</p>
+      <p className="para">I am looking for a challenging new opportunity to kickstart my career in coding within the software development industry. I want to utilise my existing skills and advance my knowledge in the industry.</p>
       </article>
       </div>
       </div>

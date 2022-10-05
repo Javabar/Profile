@@ -5,6 +5,7 @@ import CV from "../files/CV.pdf";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
 
+
 const Home = () => {
 
     const animateArt = {

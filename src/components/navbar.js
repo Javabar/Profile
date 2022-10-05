@@ -9,7 +9,7 @@ const Navbar = () => {
 
 <div className="navbar">
 
-      <div className="home">
+<div className="home">
         <a href="#Home" rel="noreferrer">
           <p>Home</p>
         </a>
@@ -17,7 +17,7 @@ const Navbar = () => {
 
       <div className="about">
         <a href="#About" rel="noreferrer">
-          <p>About Me</p>
+          <p>About</p>
         </a>
       </div>
 
