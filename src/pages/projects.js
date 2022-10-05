@@ -12,7 +12,7 @@ import OtherProjects from "../components/otherProjects";
 const Projects = () => {
 
     return ( 
-        <section id="projects">
+<div id="projects">
 <h2 className="title-projects">Projects</h2>
 <div className="projects1">
         <ProjectCodeStation
@@ -60,7 +60,7 @@ const Projects = () => {
                 />               
         </div>
     
-        </section>
+        </div>
      );
 }
  
