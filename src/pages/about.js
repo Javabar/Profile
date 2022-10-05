@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import "../css/about.css";
+import ImageSlider from '../components/imageSlider';
+import {SliderData} from "../components/sliderData"
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -37,6 +39,12 @@ const About = () => {
     </div>
   
       <div className="container">
+        <div className="hobbies">
+            <div className="image-container">
+        <h2>Interests & Hobbies</h2>
+        <ImageSlider  slides={SliderData}></ImageSlider>
+        </div>
+        </div>
      <div className="about-container">
       <div className="content">
       <div className="cards">
