@@ -6,17 +6,15 @@ import codestation from "../images/codestation.jpg";
 import websiteClone from "../images/websiteClone.jpg";
 import OtherProjects from "../components/otherProjects";
 
-import { motion } from "framer-motion";
 
 
 
 const Projects = () => {
+
     return ( 
-        <motion.section id="Project" className="portfolio">
-        
-           <div className="portfolio">
+        <section id="projects">
 <h2 className="title-projects">Projects</h2>
-<div className={"projects1"}>
+<div className="projects1">
         <ProjectCodeStation
                     image={codestation}
                     title="Code Station"
@@ -61,9 +59,8 @@ const Projects = () => {
                     
                 />               
         </div>
-        </div>
     
-        </motion.section>
+        </section>
      );
 }
  

@@ -5,17 +5,17 @@ import { BsGithub, BsFillPlayCircleFill } from "react-icons/bs";
 
 const ProjectWebsiteClone = (props) => {
     return (
-        <div className={"project"}>
-            <div className={"project-img"}>
+        <div className="project">
+            <div className="project-img">
                 <img src={props.image} alt="" />
             </div>
-            <div className={"project-text"}>
+            <div className="project-text">
                 <div>
                     <h3>{props.title}</h3>
                     <p>{props.desc}</p>
-                    <p className={"skills-text"}>{props.skills}</p>
+                    <p className="skills-text">{props.skills}</p>
                 </div>
-                <div className={"project-link"}>
+                <div className="project-link">
                     <a href={props.github} target="_blank" rel="noopener noreferrer">
                     <BsGithub className="icon" />
                         </a>

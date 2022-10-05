@@ -16,17 +16,16 @@ const Contact = () => {
     useEffect(() => {
         if (inView) {
             animateContact.start({
-                scale: 1,
-                y: 0,
-                opacity: 1,
+                scale: 1.1,
+                opacity:4,
                 transition: {
-                    duration: 0.75,
+                    duration: 0.8,
                 }
             })
         };
         if (!inView) {
             animateContact.start({
-                scale: 0.8,
+                scale: 1.3,
                 y: 100,
                 opacity: 0
             })
