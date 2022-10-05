@@ -92,7 +92,7 @@
 	font-weight: 450;
 }
 
-.btn {
+.contact-btn {
     width: 180px;
 	height: 60px;
 	background-color: transparent;
@@ -109,7 +109,7 @@
 
 }
 
-.btn:hover {
+.contact-btn:hover {
 	width: 225px;
 	color: var(--bg);
 	background-color: var(--peach);
