@@ -31,7 +31,6 @@ const Contact = () => {
                 opacity: 0
             })
         };
-        console.log("useEffect hook, inView = ", inView);
     });
 
   return (
@@ -39,8 +38,8 @@ const Contact = () => {
     <section id="contact">
       <h2>Get In Touch</h2>
 
-      <div className="contact-area">
-                <section className="contact-type">
+      <div className="contact-conatiner">
+                <section className="contact-socials">
                 <div className="contact-icons">
                 <MdEmail/>
                     <h3>Have you got any questions?</h3>
@@ -49,7 +48,7 @@ const Contact = () => {
                         <button>Send Email</button>
                     </a>
                 </section>
-                <section className="contact-type">
+                <section className="contact-socials">
                     <div className="contact-icons">
                         <BsLinkedin/>
                         <h3>Give my LinkedIn a follow!</h3>

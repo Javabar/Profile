@@ -40,7 +40,7 @@
     color: var(--peach);
 }
 
-.contact-area {
+.contact-conatiner {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,7 +49,7 @@
     margin: 10px 0 0;
 }
 
-.contact-type {
+.contact-socials {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@
     font-size: 15px;
 }
 
-.contact-type button {
+.contact-socials button {
 	width: 180px;
 	height: 60px;
     margin-top: 40px;
@@ -85,14 +85,14 @@
 	
 }
 
-.contact-type button:hover {
+.contact-socials button:hover {
 	width: 225px;
 	color: var(--bg);
 	background-color: var(--peach);
 	font-weight: 450;
 }
 
-.btn {
+.contact-btn {
     width: 180px;
 	height: 60px;
 	background-color: transparent;
@@ -117,10 +117,10 @@
 }
 
 @media all and (max-width: 800px) {
-    .contact-area {
+    .contact-container {
         width: 460px;
     }
-    .contact-type {
+    .contact-socials {
         width: 220px;
     }
 }
@@ -129,7 +129,7 @@
     .contact {
         margin: 20px 0;
     }
-    .contact-area {
+    .contact-conatiner {
         flex-direction: column;
         margin: 0 0 40px;
     }
