@@ -5,14 +5,14 @@ import { BsGithub, BsFillPlayCircleFill } from "react-icons/bs";
 
 const OtherProjects = (props) => {
     return (
-        <div className={"other-project"}>
-            <div className={"other-project-text"}>
-                <div className={"other-project-text-box"}>
+        <div className="other-project">
+            <div className="other-project-text">
+                <div className="other-project-text-box">
                     <h3>{props.title}</h3>
                     <p>{props.desc}</p>
-                    <p className={"other-skills-text"}>{props.skills}</p>
+                    <small className="other-skills-text">{props.skills}</small>
                 </div>
-                <div className={"other-project-link"}>
+                <div className="other-project-link">
                     <a href={props.github} target="_blank" rel="noopener noreferrer">
                     <BsGithub className="icon1" />
                     </a>

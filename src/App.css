@@ -1,8 +1,7 @@
 :root {
   --bigtext: "Nunito", "NTR", "Poppins", "Dela Gothic One", sans-serif;
   --smalltext: "Nunito", "NTR", "Work Sans", sans-serif;
-  --bigtext-size: 36px;
-  --smalltext-size: 17px;
+  --smalltext-size: 16px;
   --codetext-size: 15px;
   --bg: #26648b;
   --box: #ffe3b3;

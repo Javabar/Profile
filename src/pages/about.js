@@ -41,7 +41,7 @@ const About = () => {
       <div className="container">
         <div className="hobbies">
         <div className="image-container">
-        <h2>Interests & Hobbies</h2>
+        <h2>Interests &amp; Hobbies</h2>
         <ImageSlider slides={SliderData}></ImageSlider>
         </div>
         </div>
@@ -50,15 +50,15 @@ const About = () => {
       <div className="cards">
       <article className="card">
       <h5>Profile</h5>
-      <p>Becoming a developer is a fairly recent aspiration of mine, I have always been interested in technology from a young age where I created a YouTube channel reviewing technology gadgets. I was always fascinated by how websites and games work but I never truly delved into the requirements to enter these roles.</p>
+      <medium className="para">Becoming a developer is a fairly recent aspiration of mine, I have always been interested in technology from a young age where I created a YouTube channel reviewing technology gadgets. I was always fascinated by how websites and games work but I never truly delved into the requirements to enter these roles.</medium>
       </article>
       <article className="card">
       <h5>Experience</h5>
-      <p className="para">Recently, I completed Master Bootcamp IT Level 4 at Code Nation, I am keen and passionate to explore and learn more about other programming languages and skills. I have started looking into C#.</p>
+      <medium className="para">Recently, I completed Master Bootcamp IT Level 4 at Code Nation, I am keen and passionate to explore and learn more about other programming languages and skills. I have started looking into C#.</medium>
       </article>
       <article className="card">
       <h5>Goals</h5>
-      <p className="para">I am looking for a challenging new opportunity to kickstart my career in coding within the software development industry. I want to utilise my existing skills and advance my knowledge in the industry.</p>
+      <medium className="para">I am looking for a challenging new opportunity to kickstart my career in coding within the software development industry. I want to utilise my existing skills and advance my knowledge in the industry.</medium>
       </article>
       </div>
       </div>

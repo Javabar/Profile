@@ -63,7 +63,7 @@
 
 
 .skills-text {
-    color: --;
+    color: var(--light-blue);
     font-size: 14px;
 }
 
@@ -124,7 +124,7 @@
 }
 
 .other-skills-text {
-    /* color: lightgoldenrodyellow; */
+    color: var(--light-blue);
     font-size: 14px;
 }
 
