@@ -58,7 +58,7 @@ const Contact = () => {
                 </section>
             </div>
         
-        <form target="_blank" action="https://formsubmit.co/dee66d99a429ded2835d98f0b952b12a"method="POST">
+        <form target="_blank" action="https://formsubmit.co/dee66d99a429ded2835d98f0b952b12a" method="POST" className="form">
           <input type="text" name="name" placeholder="Full Name" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea name="message" rows="5" placeholder="Message" required></textarea>

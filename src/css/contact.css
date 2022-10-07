@@ -110,22 +110,15 @@ form {
 }
 
 @media all and (max-width: 560px) {
-    .contact {
-        margin: 20px 0;
-    }
+
     .contact-conatiner {
-        flex-direction: column;
-        margin: 0 0 40px;
+        margin-right: -200px;
+        grid-template-columns: 1;
     }
+    
 }
 
 
-@media screen and (max-width: 1024px) {
-    .container.contact_container {
-      grid-template-columns: 1fr;
-      gap: 2rem;
-    }
-  }
   @media screen and (max-width: 600px) {
     form {
       margin: 20px;
