@@ -1,6 +1,6 @@
 
 .title-projects {
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
     color: var(--peach);
     font-size: 50px;
@@ -37,7 +37,9 @@
     margin-left: 20px;
     /* color: var(--dark-blue); */
 }
-
+.medium {
+    color: var(--dark-blue);
+}
 .project-text h3 {
     text-align: center;
     font-size: 32px;
