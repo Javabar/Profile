@@ -1,7 +1,6 @@
 
 .title-projects {
-    margin-top: 20px;
-    padding-top: 40px;
+    padding-top: 65px;
     text-align: center;
     color: var(--peach);
     }
@@ -26,7 +25,7 @@
     object-fit: fill;
     object-position: 0 0;
     border-radius: 10px;
-    /* transition: opacity 0.5s, filter 0.5s; */
+    transition: opacity 0.5s, filter 0.5s;
     }
 
 .project-text {

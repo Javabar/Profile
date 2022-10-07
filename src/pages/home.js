@@ -90,7 +90,7 @@ const Home = () => {
 
     return (
 
-    <header id="home">
+    <header id="Home">
         <motion.div variants={animateArt} initial="initial" animate="animate" className="image">
              <div className="image-profile">
              <img src={profile} alt="Profile pic" />
