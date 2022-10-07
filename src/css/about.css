@@ -5,9 +5,10 @@
 
 .title-about {
   text-align: center;
-  padding: 50px;
+  padding: 47px;
   padding-bottom: 20px;
   color: var(--peach);
+  font-size: 25px;
 }
 
 .hobbies {

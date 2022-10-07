@@ -1,8 +1,9 @@
 
 .title-projects {
-    padding-top: 65px;
+    padding-top: 30px;
     text-align: center;
     color: var(--peach);
+    font-size: 50px;
     }
 
   .project {

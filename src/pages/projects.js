@@ -1,18 +1,45 @@
 import "../css/projects.css";
-import React from "react";
+import React, {useEffect} from "react";
 import ProjectCodeStation from "../components/projectCodeStation";
 import ProjectWebsiteClone from "../components/projectWebsiteClone";
 import codestation from "../images/codestation.jpg";
 import websiteClone from "../images/websiteClone.jpg";
 import OtherProjects from "../components/otherProjects";
-
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 
 
 const Projects = () => {
 
+
+     const {ref, inView} = useInView({
+        threshold: 0.4
+    });
+
+    const animateProjects = useAnimation();
+
+    useEffect(() => {
+        if (inView) {
+            animateProjects.start({
+                x: 0,
+                opacity: 1,
+                transition: {
+                    duration: 0.8,
+                }
+            })
+        };
+        if (!inView) {
+            animateProjects.start({
+                x: -100,
+                opacity: 2
+            })
+        };
+    });
+
     return ( 
-<div id="Projects" >
+
+<motion.div id="Projects" ref={ref} animate={animateProjects} className="projects">
 <h2 className="title-projects">Projects</h2>
 <div className="projects1">
         <ProjectCodeStation
@@ -60,7 +87,7 @@ const Projects = () => {
                 />               
         </div>
     
-        </div>
+        </motion.div>
      );
 }
  
