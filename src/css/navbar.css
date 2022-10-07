@@ -90,3 +90,34 @@
     font-size: 0px;
 }
 
+@media screen and (max-width: 1000px) {
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 0;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        min-height: 100vh;
+        text-align: center;
+        background: var(--dark);
+        transition: 0.5s;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 1rem;
+        font-size: 17px;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .nav-menu {
+        width: 100%;
+    }
+}

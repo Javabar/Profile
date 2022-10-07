@@ -67,7 +67,7 @@
   
 /* medium media devices  */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   .about-container {
     display: flex;
     justify-content: space-between;
@@ -89,7 +89,7 @@
 
   .content {
     text-align: center;
-    margin-left: 20px;
+    margin-left: -80px;
   }
   .card {
     margin: auto;
