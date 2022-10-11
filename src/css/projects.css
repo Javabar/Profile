@@ -135,7 +135,7 @@
     margin-bottom: 50px;
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 320px) {
     .project, .projects2 {
         width: 100%;
     }
@@ -151,37 +151,3 @@
         padding: 40px;
     }
 }
-
-@media all and (max-width: 1000px) {
-    .projects2 {
-        grid-template-columns: repeat(3, auto);
-    }
-}
-
-@media all and (max-width: 800px) {
-    .project {
-        flex-direction: column;
-        height: auto;
-    }
-    .project-img {
-        height: 400px;
-    }
-    .project-img,
-    .project-text {
-        width: 200px;
-        object-fit: fill
-    }
-    .project-text h3 {
-        font-size: 24px;
-    }
-    .other-project-text h3 {
-        font-size: 24px;
-    }
-}
-
-@media all and (max-width: 600px) {
-    .projects2 {
-        grid-template-columns: repeat(1, auto);
-    }
-}
-

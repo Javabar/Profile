@@ -100,27 +100,17 @@ form {
 	background-color: var(--peach);
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 320px) {
+    .contact {
+        margin: 20px 0;
+        width: 900px;
+    }
     .contact-container {
-        width: 460px;
+        /* flex-direction:column; */
+        grid-template-columns: repeat(1, auto);
+        margin: 0 0 40px;
     }
-    .contact-socials {
-        width: 220px;
-    }
+
+
 }
 
-@media all and (max-width: 560px) {
-
-    .contact-conatiner {
-        margin-right: -200px;
-        grid-template-columns: 1;
-    }
-    
-}
-
-
-  @media screen and (max-width: 600px) {
-    form {
-      margin: 20px;
-    }
-  }

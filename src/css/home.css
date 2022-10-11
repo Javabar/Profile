@@ -99,7 +99,7 @@ text-decoration: none;
 	font-size: 50px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 320px) {
 	header {
 		padding: 30px;
 	}
@@ -133,37 +133,3 @@ text-decoration: none;
 	
 }
 
-
-@media all and (max-width: 600px) {
-	header {
-		padding: 30px;
-	}
-	
-	header h1 {
-		font-size: 30px;
-	}
-	
-	header h2 {
-		font-size: 30px;
-	}
-	
-	header p {
-		width: 700px;
-		margin-left: -20px;
-		  font-size: 20px;
-	}
-	
-	.image-profile {
-		margin: -180px;
-	}
-	
-	.image-profile img {
-		width: 250px;
-		height: 500px;
-		object-fit: cover;
-		border-radius: 40px;
-		padding-top: 80px;
-		margin-left: 400px;
-	}
-	
-}
