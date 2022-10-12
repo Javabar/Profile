@@ -81,8 +81,8 @@ text-transform: uppercase;
 p {
   color: var(--peach);
   font-size: var(--smalltext-size);
-  line-height: 1.75rem;
-  /* margin-bottom: 18px; */
+  line-height: 20px;
+  margin-bottom: 18px;
 }
 
 
