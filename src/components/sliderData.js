@@ -6,7 +6,7 @@ import travelling from  "../slideshow/travelling.jpg"
 
 export const SliderData = [
     {
-      image: 'https://i.postimg.cc/X7nrvNLv/20211130-145303.jpg',
+      image: 'https://i.postimg.cc/LXb0S31d/20190730-115051.jpg',
       description: "travelling",
     },
     {

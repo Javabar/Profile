@@ -91,7 +91,7 @@ const Home = () => {
     return (
 
     <header id="Home">
-        <motion.div variants={animateArt} initial="initial" animate="animate" className="image">
+        <motion.div variants={animateArt} initial="initial" animate="animate">
              <div className="image-profile">
              <img src={profile} alt="Profile pic" />
              </div>

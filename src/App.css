@@ -39,7 +39,6 @@ background: var(--peach);
 body {
   font-family: var(--smalltext);
   background: var(--bg);
-  color: var(--black);
   z-index: 1;
 }
 
