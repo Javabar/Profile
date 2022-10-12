@@ -6,7 +6,7 @@
     z-index: 9999;
     right: 40px;
     width: 3000px;
-    height: 60px;
+    height: 45px;
     background: var(--bg);
     text-decoration: none;
     padding-right: 100px;
@@ -18,7 +18,7 @@
 
 .home {
     margin: 10px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .home p {
@@ -36,7 +36,7 @@
 
 .about {
     margin: 10px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .about p {
@@ -54,7 +54,7 @@
 
 .projects {
     margin: 10px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .projects p {
@@ -68,12 +68,11 @@
 
 .projects a {
     text-decoration: none;
-    font-size: 0px;
 }
 
 .contact {
     margin: 10px;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .contact p {
@@ -87,7 +86,6 @@
 
 .contact a {
     text-decoration: none;
-    font-size: 0px;
 }
 
 @media screen and (max-width: 1000px) {
