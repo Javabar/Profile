@@ -14,6 +14,7 @@ const Projects = () => {
     return ( 
         
 <div id="Projects" >
+    <div className="all-poroject">
 <h2 className="title-projects">Projects</h2>
 <div className="projects1">
         <ProjectCodeStation
@@ -53,14 +54,14 @@ const Projects = () => {
                 />        
 
         <OtherProjects
-                    title="Javascript Fundamentals"
+                    title="JS Fundamentals"
                     desc="Showing the key skills learnt using Javascript."
                     skills="Javascript"
                     github="https://github.com/Javabar/Javascript-Fundamentals"
                     
                 />               
         </div>
-    
+        </div>
         </div>
      );
 }
