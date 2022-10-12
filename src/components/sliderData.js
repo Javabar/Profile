@@ -7,7 +7,7 @@ import travelling from  "../slideshow/travelling.jpg"
 export const SliderData = [
     {
       image: 'https://i.postimg.cc/X7nrvNLv/20211130-145303.jpg',
-      alt: "travelling",
+      description: "travelling",
     },
     {
       image: 'https://i.postimg.cc/RFjw8rxH/29594897554-115cbc89ce-o.jpg',
@@ -15,8 +15,8 @@ export const SliderData = [
 
     },
     {
-      image: 'https://i.postimg.cc/MG7cTkyx/26573750553-fc14a69b1f-o.jpg',
-      description: "hiking",
+      image: 'https://i.postimg.cc/6qS81Cs5/26573750553-fc14a69b1f-o.jpg',
+      description: "football",
     },
     {
       image: 'https://i.postimg.cc/RFfTvCRR/IMG-20221003-WA0012.jpg',

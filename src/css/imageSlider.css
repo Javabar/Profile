@@ -6,8 +6,10 @@
   .image {
     width: 900px;
     height: 300px;
-    object-fit:contain;
+    object-fit: contain;
+    border-radius: 20px;
   }
+  
   
   .right-arrow {
     position:absolute;
@@ -35,6 +37,7 @@
   }
   
   .slide.active {
-    opacity: 1;
+    opacity: 500;
     transition-duration: 1s;
+    transform: scale(1.08);
   }

@@ -58,7 +58,7 @@ const About = () => {
       </article>
       <article className="card">
       <h5>Experience</h5>
-      <medium className="para">Recently, I completed Master Bootcamp IT Level 4 at Code Nation, I am keen and passionate to explore and learn more about other programming languages and skills. I have started looking into C#.</medium>
+      <medium className="para">Recently, I completed Master Bootcamp IT Level 4 at Code Nation, I am keen and passionate to explore and learn more about other programming languages and skills. I have also finished a programming language course C#.</medium>
       </article>
       <article className="card">
       <h5>Goals</h5>

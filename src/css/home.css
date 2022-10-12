@@ -8,8 +8,8 @@ header {
 }
 
 header h1 {
-	font-size: 60px;
-	font-weight: 800;
+	font-size: 50px;
+	font-weight: 700;
 	line-height: 1;
 	letter-spacing: -2px;
   	text-align: end;
@@ -20,7 +20,7 @@ header h1 {
 
 header h2 {
 	text-align: end;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 400;
 	letter-spacing: -1px;
 	line-height: 50px;
@@ -73,14 +73,14 @@ text-decoration: none;
 }
 
 .image-profile {
-	margin: -220px;
+	margin: -160px;
 }
 
 .image-profile img {
 	width: 400px;
 	height: 450px;
 	object-fit: cover;
-  	border-radius: 40px;
+  	border-radius: 5px 40px;
 	padding-top: 20px;
 }
 

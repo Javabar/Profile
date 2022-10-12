@@ -4,6 +4,7 @@ import "../css/imageSlider.css"
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
 const ImageSlider = ({ slides }) => {
+
   const [current, setCurrent] = useState(0);
   const length = slides.length;
 
@@ -25,14 +26,13 @@ const ImageSlider = ({ slides }) => {
       <FaArrowAltCircleRight className='right-arrow' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
-          <div
-            className={index === current ? 'slide active' : 'slide'}
-            key={index}
-          >
+          
+          <div className={index === current ? 'slide active' : 'slide'} key={index}>
             {index === current && (
-              <img src={slide.image} alt='images' className='image' />
+          <img src={slide.image} alt='images' className='image' />
             )}
           </div>
+          
         );
       })}
     </section>
