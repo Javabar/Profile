@@ -4,8 +4,9 @@
   }
   
   .image {
-    width: 900px;
+    width: 700px;
     height: 300px;
+    /* margin-right: 20px; */
     object-fit: contain;
     border-radius: 20px;
   }
@@ -29,11 +30,6 @@
     color: var(--peach);
     z-index: 10;
     cursor: pointer;
-  }
-  
-  .slide {
-    opacity: 20;
-    transition-duration: 1s ease;
   }
   
   .slide.active {

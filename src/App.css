@@ -13,11 +13,11 @@
   --transition: all 400ms ease;
 }
 
-/* ========== SCROLLBAR ========== */
 ::-webkit-scrollbar {
 width: 15px;
 margin-left: 5px;
 }
+
 ::-webkit-scrollbar-track {
 background: var(--bg);
 }
@@ -45,9 +45,9 @@ body {
 
 .app {
   display: flex;
-/* flex-direction: column; */
+flex-direction: column;
 justify-content: center;
-/* align-items: center; */
+align-items: center;
 }
 
 .container {
@@ -55,14 +55,13 @@ justify-content: center;
 }
 
 section {
-  display: flex;
+display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 
 h2 {
-
   font-family: var(--bigtext);
   font-size: 44px;
   font-weight: 700;
@@ -83,7 +82,7 @@ p {
   color: var(--peach);
   font-size: var(--smalltext-size);
   line-height: 1.75rem;
-  margin-bottom: 18px;
+  /* margin-bottom: 18px; */
 }
 
 

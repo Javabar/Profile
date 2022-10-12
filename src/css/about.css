@@ -17,6 +17,7 @@
   overflow: hidden;
   transition: var(--transition);
   /* place-items: center; */
+  margin-right: 10px;
 }
 
   .image-container h2 {
