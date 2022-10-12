@@ -5,7 +5,6 @@ import {SliderData} from "../components/sliderData"
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-
 const About = () => {
 
     const {ref, inView} = useInView({
@@ -30,6 +29,12 @@ const About = () => {
             })
         };
     });
+
+    var images = [
+        require('../slideshow/football.jpg'),
+        require('../slideshow/hiking.jpg'),
+        require('../slideshow/travelling.jpg'),
+      ];
 
     return (
     <motion.div  ref={ref} animate={animateAboutMe} id="About" className="about">

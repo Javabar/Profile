@@ -6,6 +6,7 @@
   .image {
     width: 900px;
     height: 300px;
+    object-fit:contain;
   }
   
   .right-arrow {

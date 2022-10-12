@@ -1,27 +1,26 @@
 import football from  "../slideshow/football.jpg"
 import hiking from  "../slideshow/hiking.jpg"
 import travelling from  "../slideshow/travelling.jpg"
-import { useState } from "react"
+// import { useState } from "react"
 
 
 export const SliderData = [
     {
-      img: football,
-      description: "Football tournement",
+      image: 'https://i.postimg.cc/X7nrvNLv/20211130-145303.jpg',
+      alt: "travelling",
     },
     {
-      img: hiking,
+      image: 'https://i.postimg.cc/RFjw8rxH/29594897554-115cbc89ce-o.jpg',
       description: "hiking",
 
     },
     {
-      img: travelling,
-      description: "travelling",
-
+      image: 'https://i.postimg.cc/MG7cTkyx/26573750553-fc14a69b1f-o.jpg',
+      description: "hiking",
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
+      image: 'https://i.postimg.cc/RFfTvCRR/IMG-20221003-WA0012.jpg',
+      description: "gaming",
     },
   ];
 
