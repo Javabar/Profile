@@ -26,7 +26,7 @@ header h2 {
 	font-weight: 400;
 	letter-spacing: -1px;
 	line-height: 50px;
-	color: var(--white);
+	color: var(--subtitle-home);
 	font-family: var(--bigtext);
 }
 
@@ -34,7 +34,7 @@ header p {
 	width: 500px;
 	text-align: end;
   	font-size: 20px;
-	color: var(--white);
+	color: var(--subtitle-home);
 }
 
 header button {

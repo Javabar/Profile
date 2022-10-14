@@ -52,13 +52,13 @@
 
   .card h5 {
     font-size: 25px;
-    color: var(--light-blue);
+    color: var(--text);
     padding: 8px;
     
   }
   
   .medium  {
-    color: var(--light-blue);
+    color: var(--text);
   }
 
 /* small media devices */

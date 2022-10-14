@@ -22,7 +22,7 @@
 }
 
 .home p {
-    color: var(--light-blue);
+    color: var(--text);
     font-size: 20px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .about p {
-    color: var(--light-blue);
+    color: var(--text);
     font-size: 20px;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .projects p {
-    color: var(--light-blue);
+    color: var(--text);
     font-size: 20px;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .contact p {
-    color: var(--light-blue);
+    color: var(--text);
     font-size: 20px;
 }
 
