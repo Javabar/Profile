@@ -3,11 +3,11 @@
   --smalltext: "Nunito", "NTR", "Work Sans", sans-serif;
   --smalltext-size: 16px;
   --codetext-size: 15px;
-  --bg: #ddddda;
-  --box: #7697ad;
-  --dark-blue: #94b0b7;
-  --peach: #4a707a;
-  --text: #4a707a;
+  --bg: #26648b;
+  --box: #ffe3b3;
+  --dark-blue: #4f8fbf;
+  --peach: #ffe3b3;
+  --text: #53d2db;
   /* --black: black; */
   --subtitle-home: #4a707a;
   --transition: all 400ms ease;
